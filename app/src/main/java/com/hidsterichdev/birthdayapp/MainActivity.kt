@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //function rollDice
     private fun rollDice() {
         val randomListInt = (1..6).random()
         val drawableResource = when (randomListInt) {
